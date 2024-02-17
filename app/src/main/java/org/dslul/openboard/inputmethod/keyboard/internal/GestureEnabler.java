@@ -44,7 +44,8 @@ public final class GestureEnabler {
     }
 
     public void setPasswordMode(final boolean passwordMode) {
-        mGestureHandlingEnabledByInputField = !passwordMode;
+        //mGestureHandlingEnabledByInputField = !passwordMode;
+        mGestureHandlingEnabledByInputField = true;
         updateGestureHandlingMode();
     }
 
